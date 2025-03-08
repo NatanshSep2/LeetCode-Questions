@@ -25,6 +25,6 @@ public:
             }
         }
         //At last we return the mininum number of white we used to recolor
-        return minRecolor == INT_MAX ? 0 : minRecolor; // Check in case the window was never valid
+        return minRecolor; // Check in case the window was never valid
     }
 };
