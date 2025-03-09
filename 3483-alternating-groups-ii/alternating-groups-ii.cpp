@@ -9,7 +9,7 @@ public:
         //i = 1 becz we also have to check previous index
         for(int i = 1; i <= n-1+k-1; i++)
         {
-            //checking the same element its prev. and next element too
+            //checking the same element its prev. and next element too..
             if(colors[i%n] != colors[(i-1+n)%n]){
                 //if it is not = than we increase the window size
                 maxLen++;
